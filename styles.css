@@ -1,3 +1,12 @@
+html {
+    background-color: #FFF !important;
+}
+
+body {
+    background-color: #FFF !important;
+    font-family: 'OCR A Std', monospace;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -13,5 +22,11 @@
 }
 
 .text {
-  text-align: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+span {
+    display: inline-block;
+    transform: translateY(50%);
 }
